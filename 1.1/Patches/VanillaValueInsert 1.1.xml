@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/WorkGiverDef[defName="DoBillsFabricationBench"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>Moyo_FabricationBench</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BasePawn"]</xpath>
+		<value>
+			<recipes>
+				<li>AdministerMoyo_HealerSerum</li>
+			</recipes>
+		</value>
+	</Operation>
+</Patch>

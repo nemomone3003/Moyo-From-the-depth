@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>Moyo_FakeTail</defName>
+		<label>fake moyo tail</label>
+		<description>A fake tail made of cloth. Helps keep balance.</description>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Cloth>85</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>Moyo_BionicTail</defName>
+		<label>bionic moyo tail</label>
+		<description>A binoic tail made with advanced technology. Superior to a natural tail in many ways.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Synthread>30</Synthread>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>Moyo_AdvancedHeart</defName>
+		<label>abysstech heart</label>
+		<description>A bionic heart modified with abysstech. This particular phrosthethic part is desinged for moyos.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<BionicHeart>1</BionicHeart>
+			<ComponentSpacer>3</ComponentSpacer>
+			<BlueMed>5</BlueMed>
+		</costList>
+		<researchPrerequisites>
+			<li>DBS_Research</li>
+		</researchPrerequisites>			
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>
