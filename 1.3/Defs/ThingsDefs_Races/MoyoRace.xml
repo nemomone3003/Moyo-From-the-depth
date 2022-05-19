@@ -46,7 +46,8 @@
 				</chemicalSettings>
 				<!--=파트제네레이터==========================================================================================-->
 				<alienPartGenerator>
-					<atlasScale>2</atlasScale>
+					<atlasScale>4</atlasScale>
+					<borderScale>1</borderScale>
 					<aliencrowntypes>
 						<li>MoyoHead</li>
 						<li>MoyoHead1</li>
@@ -272,8 +273,8 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-                            <li>Moyo_HairCategory</li>
-                        </styleTagsOverride>
+							<li>Moyo_HairCategory</li>
+						</styleTagsOverride>
 					</value>
 				</li>
 				<li>
@@ -281,8 +282,8 @@
 					<value>
 						<hasStyle>false</hasStyle>
 						<!-- <styleTags> -->
-							<!-- <li>Minimal</li> -->
-                        <!-- </styleTags> -->
+						<!-- <li>Minimal</li> -->
+						<!-- </styleTags> -->
 					</value>
 				</li>
 				<li>
@@ -290,8 +291,8 @@
 					<value>
 						<hasStyle>false</hasStyle>
 						<!-- <styleTags> -->
-							<!-- <li>Minimal</li> -->
-                        <!-- </styleTags> -->
+						<!-- <li>Minimal</li> -->
+						<!-- </styleTags> -->
 					</value>
 				</li>
 			</styleSettings>
@@ -315,6 +316,8 @@
 					<li>Moyo_RoyalHologramC</li>
 					<li>Moyo_EGsuit</li>
 					<li>Moyo_EGmask</li>
+					<li>Moyo_SShelmet</li>
+					<li>Moyo_PShelmet</li>
 					<li>Moyo_LDgear</li>
 					<li>Moyo_LDhelmet</li>
 					<li>Moyo_DDgear</li>
@@ -326,6 +329,8 @@
 					<li>Moyo_Evasuit</li>
 					<li>Moyo_Bodysuit</li>
 					<li>Moyo_Royalsuit</li>
+					<li>Moyo_HoloJacket</li>
+					<li>Moyo_Holosuit</li>
 				</apparelList>
 			</raceRestriction>
 		</alienRace>
@@ -437,8 +442,8 @@
 			<litterSizeCurve>
 				<points>
 					<li>(0, 0)</li>
-					<li>(1, 5)</li>
-					<li>(2, 10)</li>
+					<li>(1, 10)</li>
+					<li>(2, 1)</li>
 					<li>(3, 0)</li>
 				</points>
 			</litterSizeCurve>
@@ -457,7 +462,7 @@
 				</li>
 				<li>
 					<def>HumanlikeTeenager</def>
-					<minAge>13</minAge>
+					<minAge>12</minAge>
 				</li>
 				<li>
 					<def>HumanlikeAdult</def>
@@ -511,10 +516,9 @@
 						<statDef>DeepblueStat</statDef>
 						<multiplier>1.0</multiplier>
 						<offset>-1.0</offset>
-					</li>					
+					</li>
 				</productAffectedStats>
 			</li>
-			
 		</comps>
 		<!--=============================================================================================================================-->
 		<recipes>

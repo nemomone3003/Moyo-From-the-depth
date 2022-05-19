@@ -32,24 +32,33 @@
 	<Moyo_LDgear.description>바다속 활동을 위한 잠수복입니다. 사용자의 움직임을 방해하지 않으면서 외부의 위협을 차단합니다.\n\n모요 사회에서 잠수복은 원래 이것을 지칭하는 말이었으나 심해에서도 인력을 요구하는 일들이 많아짐에 따라 점차 두껍고 견고하게 개조한 결과 심층잠수복이 만들졌습니다.</Moyo_LDgear.description>
 	<Moyo_LDhelmet.label>모요 잠수복 헬멧</Moyo_LDhelmet.label>
 	<Moyo_LDhelmet.description>잠수복과 짝을 이루는 헬멧입니다. 큰 바이저는 넒은 시야를 제공해주며 작업을 도와주는 HUD도 내장되어있습니다.\n\n상층과 중층에서 주로 사용된 이 잠수복은 밀수업자들이 접근하기 용이한 환경이 있었던 탓에 내전에서 방어구로서 이용되기도 했습니다.</Moyo_LDhelmet.description>
-
+	
+	<Moyo_SShelmet.label>모요 감각제어 헬멧(억압)</Moyo_SShelmet.label>
+	<Moyo_SShelmet.description>시청각 인터페이스가 장착된 헬멧입니다. 설정에 따라 사용자의 수용 감각을 조절할 수 있습니다. 이 헬멧은 억압모드로 설정되어있습니다.\n\n억압은 이 헬멧이 사용될 수 있는 '다양한 분야'중 하나이며, 의심스러운 경찰이나 장로의 요원들에 의해 사용되었습니다.</Moyo_SShelmet.description>
+	<Moyo_PShelmet.label>모요 감각제어 헬멧(진정)</Moyo_PShelmet.label>
+	<Moyo_PShelmet.description>시청각 인터페이스가 장착된 헬멧입니다. 설정에 따라 사용자의 수용 감각을 조작할 수 있습니다. 이 헬멧은 진정모드로 설정되어있습니다.\n\n이 헬멧은 해당되는 소프트웨어가 제공된다면 예능용부터 의료목적까지 다양한 용도로 이용될 수 있지만 변경계에선 해당 소프트웨어들이 흔히 발견되지 않는 것이 아쉬운 점입니다.</Moyo_PShelmet.description>
+	
 	<Moyo_Royalsuit.label>모요 고위 바디슈트</Moyo_Royalsuit.label>
 	<Moyo_Royalsuit.description>등대의 고위계층이 입는 화려한 옷입니다. 외형도 깔끔하지만 착용자를 보호해주는 능력 역시 우수합니다.</Moyo_Royalsuit.description>
 	<Moyo_RoyalRobeA.label>모요 고위 예복 A</Moyo_RoyalRobeA.label>
-	<Moyo_RoyalRobeA.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 달리 매우 튼튼합니다.\n\n이 옷에는 세 장로중 한명을 상징하는 문양이 새겨져 있습니다.</Moyo_RoyalRobeA.description>
+	<Moyo_RoyalRobeA.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 다르게 내구성이 좋습니다.\n\n이 옷에는 세 장로중 한명을 상징하는 문양이 새겨져 있습니다.</Moyo_RoyalRobeA.description>
 	<Moyo_RoyalRobeB.label>모요 고위 예복 B</Moyo_RoyalRobeB.label>
-	<Moyo_RoyalRobeB.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 달리 매우 튼튼합니다.\n\n이 옷에는 세 장로중 한명을 상징하는 문양이 새겨져 있습니다.</Moyo_RoyalRobeB.description>
+	<Moyo_RoyalRobeB.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 다르게 내구성이 좋습니다.\n\n이 옷에는 세 장로중 한명을 상징하는 문양이 새겨져 있습니다.</Moyo_RoyalRobeB.description>
 	<Moyo_RoyalRobeC.label>모요 고위 예복 C</Moyo_RoyalRobeC.label>
-	<Moyo_RoyalRobeC.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 달리 매우 튼튼합니다.\n\n이 옷에는 세 장로중 한명을 상징하는 문양이 새겨져 있습니다.</Moyo_RoyalRobeC.description>
+	<Moyo_RoyalRobeC.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 다르게 내구성이 좋습니다.\n\n이 옷에는 세 장로중 한명을 상징하는 문양이 새겨져 있습니다.</Moyo_RoyalRobeC.description>
 	<Moyo_RoyalBlackDress.label>모요 이국적인 검은 드레스</Moyo_RoyalBlackDress.label>
-	<Moyo_RoyalBlackDress.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 달리 매우 튼튼합니다.\n\n특이한 스타일의 검은 드레스입니다. 장로들과의 연결점이 전혀 보이지 않는 이 옷이 누구를 위해 만들어졌는지는 알려지지 않았습니다.</Moyo_RoyalBlackDress.description>	
+	<Moyo_RoyalBlackDress.description>등대의 고위계층이 입는 사치스러울 정도로 화려하게 장식된 옷입니다. 사용된 재료로 인해 보기와는 다르게 내구성이 좋습니다.\n\n특이한 스타일의 검은 드레스입니다. 장로들과의 연결점이 전혀 보이지 않는 이 옷이 누구를 위해 만들어졌는지는 알려지지 않았습니다.</Moyo_RoyalBlackDress.description>
 	<Moyo_RoyalHologramA.label>모요 소형 홀로그램 영사기 A</Moyo_RoyalHologramA.label>
 	<Moyo_RoyalHologramA.description>등대의 고위계층이 머리를 장식하기 위해 사용하는 소형 홀로그램 영사기입니다. 방어능력은 없지만 영사기가 만들어내는 홀로그램은 착용자로 하여금 상대방과 의사소통하는데 보조적인 도움을 줍니다.\n\n이 영사기는 세 장로중 한명을 상징하는 문양을 띄우고 있습니다.</Moyo_RoyalHologramA.description>
 	<Moyo_RoyalHologramB.label>모요 소형 홀로그램 영사기 B</Moyo_RoyalHologramB.label>
 	<Moyo_RoyalHologramB.description>등대의 고위계층이 머리를 장식하기 위해 사용하는 소형 홀로그램 영사기입니다. 방어능력은 없지만 영사기가 만들어내는 홀로그램은 착용자로 하여금 상대방과 의사소통하는데 보조적인 도움을 줍니다.\n\n이 영사기는 세 장로중 한명을 상징하는 문양을 띄우고 있습니다.</Moyo_RoyalHologramB.description>
 	<Moyo_RoyalHologramC.label>모요 소형 홀로그램 영사기 C</Moyo_RoyalHologramC.label>
 	<Moyo_RoyalHologramC.description>등대의 고위계층이 머리를 장식하기 위해 사용하는 소형 홀로그램 영사기입니다. 방어능력은 없지만 영사기가 만들어내는 홀로그램은 착용자로 하여금 상대방과 의사소통하는데 보조적인 도움을 줍니다.\n\n이 영사기는 세 장로중 한명을 상징하는 문양을 띄우고 있습니다.</Moyo_RoyalHologramC.description>
-
+	<Moyo_Holosuit.label>모요 홀로슈트</Moyo_Holosuit.label>
+	<Moyo_Holosuit.description>등대의 유명인사들이 입는 고품질의 옷입니다. 사용된 재료로 인해 보기와는 다르게 내구성이 좋습니다.\n\n지상의 물품들이 인기를 끌기 시작하면서 연예인들과 디자이너들도 오래 지나지 않아 그 흐름에 참여했습니다. 이 스타일을 처음으로 받아들인 이들은 등대의 가장 유명한 인플루언서들인 '세이렌'들이었습니다.</Moyo_Holosuit.description>
+	<Moyo_HoloJacket.label>모요 홀로자켓</Moyo_HoloJacket.label>
+	<Moyo_HoloJacket.description>등대의 유명인사들이 입는 고품질의 옷입니다. 사용된 재료로 인해 보기와는 다르게 내구성이 좋습니다.\n\n지상의 물품들이 인기를 끌기 시작하면서 연예인들과 디자이너들도 오래 지나지 않아 그 흐름에 참여했습니다. 이 스타일을 처음으로 받아들인 이들은 등대의 가장 유명한 인플루언서들인 '세이렌'들이었습니다.</Moyo_HoloJacket.description>
+	
 	<Moyo_GDsuit.label>모요 근위대 갑옷</Moyo_GDsuit.label>
 	<Moyo_GDsuit.description>전투용으로 개조된 심층잠수복으로, 세 장로의 근위대가 착용하는 갑옷입니다.\n\n거세지는 내전에 신변의 위협을 느낀 세 장로들은 급하게 창설된 근위대의 갑옷으로서 잠수복을 긍정적으로 검토했습니다.</Moyo_GDsuit.description>
 	<Moyo_GDhelmet.label>모요 근위대 헬멧</Moyo_GDhelmet.label>

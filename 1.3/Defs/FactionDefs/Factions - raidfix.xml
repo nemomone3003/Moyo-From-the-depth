@@ -16,6 +16,9 @@
 		<pawnSingular>colonist</pawnSingular>
 		<pawnsPlural>colonists</pawnsPlural>
 		<techLevel>Industrial</techLevel>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
 		<backstoryFilters>
 			<li>
 				<categories>
@@ -251,6 +254,7 @@
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>Icon/Moyo_FactionIcon</settlementTexturePath>
 		<factionIconPath>Icon/Moyo_FactionIcon</factionIconPath>
+		<leaderTitle>Refugee Haven elder</leaderTitle>
 		<colorSpectrum>
 			<li>(79, 183, 181)</li>
 		</colorSpectrum>
@@ -276,7 +280,7 @@
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<settlementTexturePath>Icon/Moyo_FactionIcon</settlementTexturePath>
 		<factionIconPath>Icon/Moyo_FactionIcon</factionIconPath>
-		<leaderTitle>Refugee general</leaderTitle>
+		<leaderTitle>Radical haven elder</leaderTitle>
 		<colorSpectrum>
 			<li>(76, 84, 171)</li>
 		</colorSpectrum>
@@ -293,7 +297,7 @@
 					<li>Siege</li>
 				</disallowedStrategies>
 				<options>
-					<Moyo_General>1</Moyo_General>
+					<Moyo_leader>1</Moyo_leader>
 				</options>
 			</li>
 		</pawnGroupMakers>

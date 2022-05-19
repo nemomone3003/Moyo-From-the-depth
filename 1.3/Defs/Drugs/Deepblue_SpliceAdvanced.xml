@@ -362,7 +362,7 @@
 
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>Clensazure</defName>
-		<label>clens-azure</label>
+		<label>clear-azure</label>
 		<description>Penoxycyline modified with deepblue to act as an antiparasitic. Cures/blocks gut worms and muscle parasites for a single time. This comes With the cost of deepblue dependancy and a massive boost to its tolerance.</description>
 		<descriptionHyperlinks>
 			<HediffDef>ClensazureHigh</HediffDef>
@@ -413,8 +413,8 @@
 	<HediffDef>
 		<defName>ClensazureHigh</defName>
 		<hediffClass>Hediff_High</hediffClass>
-		<label>clens-azure</label>
-		<description>Clensazure-induced cure/immunity to parasites. This is a One-time effect.</description>
+		<label>clear-azure</label>
+		<description>Clearazure-induced cure/immunity to parasites. This is a One-time effect.</description>
 		<descriptionHyperlinks>
 			<ThingDef>Clensazure</ThingDef>
 		</descriptionHyperlinks>
@@ -508,7 +508,7 @@
 		<label>sustainer-lapis high</label>
 		<description>Awakening effect induced by sustainer-lapis. Prevents need of food and rest for a period of time.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Clensazure</ThingDef>
+			<ThingDef>SustainerLapis</ThingDef>
 		</descriptionHyperlinks>
 		<defaultLabelColor>(174,88,172)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
@@ -554,7 +554,7 @@
 		<label>sustainer-lapis recovery</label>
 		<description>Recovering from sustainer-lapis. You cannot apply another dose during this period.</description>
 		<descriptionHyperlinks>
-			<ThingDef>Clensazure</ThingDef>
+			<ThingDef>SustainerLapis</ThingDef>
 		</descriptionHyperlinks>
 		<defaultLabelColor>(134,95,133)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>

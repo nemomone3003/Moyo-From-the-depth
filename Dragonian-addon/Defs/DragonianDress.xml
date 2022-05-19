@@ -4,7 +4,7 @@
 	<ThingDef ParentName="Moyo_ApparelBase">
 		<defName>Moyo_Exoframeproto</defName>
 		<label>moyo exoframe prototype</label>
-		<description>A gear made during development of lightweight exoframe. As a proof of concept, it was only planned to be tested in controlled environment, hence the lack of protection. *This is just for female.*</description>
+		<description>A gear made during development of lightweight exoframe. As a proof of concept, it was only planned to be tested in controlled environment, hence the lack of protection.\n\n*Designed for female use.*</description>
 		<graphicData>
 			<texPath>Things/Apparel/Dragonian/MoyoExoFrame1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -68,7 +68,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="Moyo_ApparelBase" Abstract="True" Name="Moyo_DragonDress">
-		<description>Exotic clothes of the lighthouse which its design was inspired from the surface. Made with advanced materials and is sturdier than it seems.\n\nReports of seeing white humanoid creature with reptilian features has came from the surface. As their tales were told in the lighthouse, some designers saw it as a great source of inspiration. thus, this clothing was born. *This is just for female.*</description>
+		<description>Exotic clothes of the lighthouse which its design was inspired from the surface. Made with advanced materials and is sturdier than it seems.\n\nReports of seeing white humanoid creature with reptilian features has came from the surface. As their tales were told in the lighthouse, some designers saw it as a great source of inspiration. thus, this clothing was born.\n\n*Designed for female use.*</description>
 		<recipeMaker>
 			<researchPrerequisite>MultiAnalyzer</researchPrerequisite>
 			<skillRequirements>

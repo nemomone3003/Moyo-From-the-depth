@@ -617,60 +617,6 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
-	<!-- 모요장군 -->
-	<PawnKindDef ParentName="MoyoBasePawnKind" Name="MoyoGeneral" Abstract="true">
-		<label>moyo refugee general</label>
-		<combatPower>450</combatPower>
-		<itemQuality>Excellent</itemQuality>
-		<isFighter>true</isFighter>
-		<factionLeader>true</factionLeader>
-		<baseRecruitDifficulty>0.99</baseRecruitDifficulty>
-		<apparelTags>
-			<li>Moyo_Guardian</li>
-		</apparelTags>
-		<apparelRequired>
-			<li>Moyo_GDhelmet</li>
-			<li>Moyo_GDsuit</li>
-			<li>Moyo_Evasuit</li>
-		</apparelRequired>
-		<gearHealthRange>3~4</gearHealthRange>
-		<backstoryFiltersOverride>
-			<li>
-				<categories>
-					<li>Moyo_Guardian</li>
-				</categories>
-			</li>
-		</backstoryFiltersOverride>
-		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-		<apparelMoney>12000~16000</apparelMoney>
-		<weaponTags>
-			<li>Moyo_GuardianGun</li>
-		</weaponTags>
-		<weaponMoney>3000~8000</weaponMoney>
-		<biocodeWeaponChance>0.3</biocodeWeaponChance>
-		<techHediffsChance>0.3</techHediffsChance>
-		<techHediffsMoney>2000~3800</techHediffsMoney>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<techHediffsRequired>
-			<li>BionicEye</li>
-			<li>BionicEye</li>
-		</techHediffsRequired>
-		<invNutrition>0</invNutrition>
-		<inventoryOptions>
-			<subOptionsChooseOne>
-				<li>
-					<thingDef>BlueGo</thingDef>
-					<countRange>1~1</countRange>
-					<choiceChance>100</choiceChance>
-				</li>
-			</subOptionsChooseOne>
-		</inventoryOptions>
-	</PawnKindDef>
-	<PawnKindDef ParentName="MoyoGeneral">
-		<defName>Moyo_General</defName>
-	</PawnKindDef>
 	<!-- 모요근위대 -->
 	<PawnKindDef ParentName="MoyoBasePawnKind" Name="MoyoGuardian" Abstract="true">
 		<label>moyo royalguard</label>

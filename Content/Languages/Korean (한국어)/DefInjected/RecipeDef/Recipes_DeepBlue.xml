@@ -23,4 +23,12 @@
 	<AbysstechHeartAlt.label>어비스테크 심장 제작(모요 심장)</AbysstechHeartAlt.label>
 	<AbysstechHeartAlt.description>살아있는 모요의 심장을 사용해 어비스테크 심장을 제작합니다.</AbysstechHeartAlt.description>
 	<AbysstechHeartAlt.jobString>어비스테크 심장(모요 심장) 제작중.</AbysstechHeartAlt.jobString>	
+	
+	<ChangeMod_PSHelmet.label>감각제어 헬멧 재설정(억압 모드로)</ChangeMod_PSHelmet.label>
+	<ChangeMod_PSHelmet.description>감각제어 헬멧을 억압 모드로 재설정합니다.</ChangeMod_PSHelmet.description>
+	<ChangeMod_PSHelmet.jobString>감각제어 헬멧 재설정중(억압 모드로).</ChangeMod_PSHelmet.jobString>	
+
+	<ChangeMod_SSHelmet.label>감각제어 헬멧 재설정(진정 모드로)</ChangeMod_SSHelmet.label>
+	<ChangeMod_SSHelmet.description>감각제어 헬멧을 진정 모드로 재설정합니다.</ChangeMod_SSHelmet.description>
+	<ChangeMod_SSHelmet.jobString>감각제어 헬멧 재설정중(진정 모드로).</ChangeMod_SSHelmet.jobString>		
 </LanguageData>

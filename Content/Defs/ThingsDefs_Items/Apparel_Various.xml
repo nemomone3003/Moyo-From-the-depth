@@ -5,14 +5,11 @@
 		<label>moyo Apparel</label>
 		<parent>Apparel</parent>
 	</ThingCategoryDef>
-
 	<ThingCategoryDef>
 		<defName>MoyoHeadgear</defName>
 		<label>moyo Headgear</label>
 		<parent>MoyoApparel</parent>
 	</ThingCategoryDef>
-
-
 	<ThingDef Abstract="True" Name="Moyo_ApparelBase" ParentName="ApparelMakeableBase">
 		<techLevel>Medieval</techLevel>
 		<apparel>
@@ -29,10 +26,9 @@
 			<li>MoyoHeadgear</li>
 		</thingCategories>
 	</ThingDef>
-
 	<!--기계가공갑옷-->
 	<ThingDef Abstract="True" Name="Moyo_ArmorMachineableBase" ParentName="ApparelBase">
-		<techLevel>Industrial</techLevel>		
+		<techLevel>Industrial</techLevel>
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -61,21 +57,19 @@
 				<li>Moyo_Apparel</li>
 				<li>Moyo_Armor</li>
 			</tags>
-		</apparel>		
+		</apparel>
 		<thingCategories>
 			<li>MoyoApparel</li>
 		</thingCategories>
 	</ThingDef>
-
 	<ThingDef Abstract="True" Name="Moyo_HelmetMachineableBase" ParentName="Moyo_ArmorMachineableBase">
 		<thingCategories Inherit="False">
 			<li>MoyoHeadgear</li>
 		</thingCategories>
 	</ThingDef>
-
 	<!--강화갑옷-->
 	<ThingDef Abstract="True" Name="Moyo_PowerArmorBase" ParentName="ApparelBase">
-		<techLevel>Spacer</techLevel>	
+		<techLevel>Spacer</techLevel>
 		<tradeTags Inherit="false">
 			<li>HiTechArmor_Moyo</li>
 		</tradeTags>
@@ -90,18 +84,17 @@
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
-			</layers>	
+			</layers>
 			<tags>
 				<li>Moyo_Apparel</li>
 				<li>Moyo_TechArmor</li>
 			</tags>
-			<useDeflectMetalEffect>true</useDeflectMetalEffect>	
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
 		<thingCategories>
 			<li>MoyoApparel</li>
-		</thingCategories>		
-	</ThingDef>	
-
+		</thingCategories>
+	</ThingDef>
 	<ThingDef Abstract="True" Name="Moyo_PowerHelmetBase" ParentName="Moyo_PowerArmorBase">
 		<apparel Inherit="False">
 			<bodyPartGroups>
@@ -114,13 +107,12 @@
 				<li>Moyo_Apparel</li>
 				<li>Moyo_TechArmor</li>
 			</tags>
-			<useDeflectMetalEffect>true</useDeflectMetalEffect>				
-		</apparel>		
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
 		<thingCategories Inherit="False">
 			<li>MoyoHeadgear</li>
 		</thingCategories>
 	</ThingDef>
-
 	<!--원시-->
 	<!--몸싸개-->
 	<ThingDef ParentName="Moyo_ApparelBase">
@@ -130,7 +122,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Moyotribal1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<costStuffCount>60</costStuffCount>
@@ -192,7 +184,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoParka1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<costStuffCount>80</costStuffCount>
@@ -215,7 +207,7 @@
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
-				<li>Arms</li>	
+				<li>Arms</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/MoyoParka</wornGraphicPath>
 			<layers>
@@ -267,7 +259,7 @@
 		<techLevel>Medieval</techLevel>
 		<costList>
 			<Steel>10</Steel>
-		</costList>		
+		</costList>
 		<costStuffCount>85</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -317,7 +309,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-	</ThingDef>	
+	</ThingDef>
 	<!--자켓-->
 	<ThingDef ParentName="Moyo_ApparelBase">
 		<defName>Moyo_Jacket</defName>
@@ -326,7 +318,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoJacket1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>70</costStuffCount>
@@ -349,7 +341,7 @@
 				<li>Torso</li>
 				<li>Neck</li>
 				<li>Shoulders</li>
-				<li>Arms</li>	
+				<li>Arms</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/MoyoJacket</wornGraphicPath>
 			<layers>
@@ -385,7 +377,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-	</ThingDef>	
+	</ThingDef>
 	<!--바람막이-->
 	<ThingDef ParentName="Moyo_ApparelBase">
 		<defName>Moyo_Duster</defName>
@@ -397,7 +389,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoDuster1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
@@ -455,7 +447,7 @@
 				</li>
 			</options>
 		</colorGenerator>
-	</ThingDef>	
+	</ThingDef>
 	<!--털모자-->
 	<ThingDef ParentName="Moyo_HatBase">
 		<defName>Moyo_Tuque</defName>
@@ -464,7 +456,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoTuque1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
 		<costStuffCount>25</costStuffCount>
@@ -514,7 +506,7 @@
 					<only>(0.9,0.9,0.9,1)</only>
 				</li>
 			</options>
-		</colorGenerator>	
+		</colorGenerator>
 	</ThingDef>
 	<!--카우보이-->
 	<ThingDef ParentName="Moyo_HatBase">
@@ -524,7 +516,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoCowhat1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
 		<costStuffCount>25</costStuffCount>
@@ -543,7 +535,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<SocialImpact>0.10</SocialImpact>
-		</equippedStatOffsets>		
+		</equippedStatOffsets>
 		<generateCommonality>0.5</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
@@ -578,7 +570,7 @@
 					<only>(0.9,0.9,0.9,1)</only>
 				</li>
 			</options>
-		</colorGenerator>	
+		</colorGenerator>
 	</ThingDef>
 	<!--중산모-->
 	<ThingDef ParentName="Moyo_HatBase">
@@ -588,7 +580,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoBowlerhat1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
 		<costStuffCount>20</costStuffCount>
@@ -608,7 +600,7 @@
 		<generateCommonality>0.5</generateCommonality>
 		<equippedStatOffsets>
 			<SocialImpact>0.15</SocialImpact>
-		</equippedStatOffsets>				
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -617,7 +609,7 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<tags>	
+			<tags>
 				<li>Moyo_Industrial</li>
 				<li>RoyalTier2</li>
 			</tags>
@@ -642,9 +634,8 @@
 					<only>(0.9,0.9,0.9,1)</only>
 				</li>
 			</options>
-		</colorGenerator>	
-	</ThingDef>		
-
+		</colorGenerator>
+	</ThingDef>
 	<!--산업-->
 	<!--바디슈트-->
 	<ThingDef ParentName="Moyo_ApparelBase">
@@ -706,9 +697,8 @@
 					<only>(1,1,1)</only>
 				</li>
 			</options>
-		</colorGenerator>	
+		</colorGenerator>
 	</ThingDef>
-
 	<!--산업갑옷-->
 	<!--작업복-->
 	<ThingDef ParentName="Moyo_ArmorMachineableBase">
@@ -718,7 +708,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/EGsuit1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<costList>
@@ -769,7 +759,7 @@
 					<only>(1,1,1)</only>
 				</li>
 			</options>
-		</colorGenerator>	
+		</colorGenerator>
 	</ThingDef>
 	<!--용접마스크-->
 	<ThingDef ParentName="Moyo_HelmetMachineableBase">
@@ -779,7 +769,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/EGmask1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<costList>
@@ -822,7 +812,6 @@
 		</recipeMaker>
 	</ThingDef>
 	<!--우주-->
-
 	<!--환경적응슈트-->
 	<ThingDef ParentName="Moyo_ApparelBase">
 		<defName>Moyo_Evasuit</defName>
@@ -831,7 +820,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/MoyoEvasuit1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1</drawSize>			
+			<drawSize>1</drawSize>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<costList>
@@ -853,7 +842,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.1</MoveSpeed>
-		</equippedStatOffsets>		
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -890,10 +879,9 @@
 					<only>(1,1,1)</only>
 				</li>
 			</options>
-		</colorGenerator>	
+		</colorGenerator>
 	</ThingDef>
 	<!--우주갑옷-->
-
 	<!-- 심층잠수복 -->
 	<ThingDef ParentName="Moyo_PowerArmorBase">
 		<defName>Moyo_DDgear</defName>
@@ -911,8 +899,8 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>8</Crafting>
-			</skillRequirements>			
-		</recipeMaker>		
+			</skillRequirements>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Apparel/DDsuit1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -928,7 +916,7 @@
 			<ArmorRating_Heat>0.6</ArmorRating_Heat>
 			<Insulation_Cold>36</Insulation_Cold>
 			<Insulation_Heat>16</Insulation_Heat>
-			<EquipDelay>12</EquipDelay>			
+			<EquipDelay>12</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.8</MoveSpeed>
@@ -973,7 +961,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>8</Crafting>
-			</skillRequirements>			
+			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Apparel/DDhelmet1</texPath>
@@ -990,7 +978,7 @@
 			<ArmorRating_Heat>0.6</ArmorRating_Heat>
 			<Insulation_Cold>7</Insulation_Cold>
 			<Insulation_Heat>3</Insulation_Heat>
-			<EquipDelay>6</EquipDelay>			
+			<EquipDelay>6</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
@@ -1034,7 +1022,7 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>6</Crafting>
-			</skillRequirements>			
+			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Apparel/LDsuit1</texPath>
@@ -1051,7 +1039,7 @@
 			<ArmorRating_Heat>0.5</ArmorRating_Heat>
 			<Insulation_Cold>24</Insulation_Cold>
 			<Insulation_Heat>12</Insulation_Heat>
-			<EquipDelay>10</EquipDelay>			
+			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<tradeTags>
 			<li>HiTechArmor</li>
@@ -1097,8 +1085,8 @@
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>6</Crafting>
-			</skillRequirements>			
-		</recipeMaker>		
+			</skillRequirements>
+		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Apparel/LDhelmet1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1113,7 +1101,7 @@
 			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.5</ArmorRating_Heat>
 			<Insulation_Cold>5</Insulation_Cold>
-			<EquipDelay>2</EquipDelay>			
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -1137,5 +1125,184 @@
 				</li>
 			</options>
 		</colorGenerator>
-	</ThingDef>		
+	</ThingDef>
+	<ThingDef ParentName="Moyo_PowerHelmetBase">
+		<defName>Moyo_PShelmet</defName>
+		<label>moyo Sensory control helmet(Soothing)</label>
+		<description>A helmet with a visual and auditory interface. It can alter sensory inputs depending on its configuration. This helmet is set to soothing mode.\n\nFrom entertainment to therapeutic use, This helmet can be used in various area if respective software is provided. Its a shame such softwares are not easily found in rimworld.</description>
+		<recipeMaker>
+			<researchPrerequisite>DeepSeaProtection</researchPrerequisite>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>Moyo_FabricationBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps Inherit="False">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<graphicData>
+			<texPath>Things/Apparel/PShelmet1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.62</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>-0.8</PsychicSensitivity>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Moyo_Abyssteel>15</Moyo_Abyssteel>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/PShelmet</wornGraphicPath>
+			<tags>
+				<li>Moyo_SpacerSpecial</li>
+				<li>RoyalTier2</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>100</weight>
+					<only>(1,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	<ThingDef ParentName="Moyo_PowerHelmetBase">
+		<defName>Moyo_SShelmet</defName>
+		<label>moyo Sensory control helmet(Supressing)</label>
+		<description>A helmet with a visual and auditory interface. It can alter sensory inputs depending on its configuration. This helmet is set to supressing mode.\n\nOppression is one of its 'various area of use', Used by some questionable police forces or agents of the elders. </description>
+		<recipeMaker>
+			<researchPrerequisite>DeepSeaProtection</researchPrerequisite>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers Inherit="False">
+				<li>Moyo_FabricationBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps Inherit="False">
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<graphicData>
+			<texPath>Things/Apparel/PShelmet1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>0.62</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<PsychicSensitivity>-0.4</PsychicSensitivity>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>2</ComponentSpacer>
+			<Moyo_Abyssteel>15</Moyo_Abyssteel>
+		</costList>
+		<apparel>
+			<slaveApparel MayRequire="Ludeon.RimWorld.Ideology">true</slaveApparel>
+			<wornGraphicPath>Things/Apparel/PShelmet</wornGraphicPath>
+			<tags>
+				<li>Moyo_Slave</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>100</weight>
+					<only>(1,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	<RecipeDef Name="Moyo_HelmetmodeChange">
+		<defName>ChangeMod_PSHelmet</defName>
+		<label>reconfigure Sensory control helmet(to Supressing)</label>
+		<description>Reconfigure sensory control helmet into suppresing mode.</description>
+		<jobString>Reconfiguring Sensory control helmet(to Supressing).</jobString>
+		<workAmount>500</workAmount>
+		<researchPrerequisite>DeepSeaProtection</researchPrerequisite>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<recipeUsers>
+			<li>Moyo_FabricationBench</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Moyo_PShelmet</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Moyo_SShelmet>1</Moyo_SShelmet>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="Moyo_HelmetmodeChange">
+		<defName>ChangeMod_SSHelmet</defName>
+		<label>reconfigure Sensory control helmet(to Soothing)</label>
+		<description>Reconfigure sensory control helmet into Soothing mode.</description>
+		<jobString>Reconfiguring Sensory control helmet(to Soothing).</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Moyo_SShelmet</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<Moyo_PShelmet>1</Moyo_PShelmet>
+		</products>
+	</RecipeDef>	
 </Defs>

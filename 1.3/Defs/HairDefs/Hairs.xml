@@ -130,5 +130,14 @@
 		<styleTags>
 			<li>Moyo_HairCategory</li>
 		</styleTags>
-	</HairDef>	
+	</HairDef>
+	<HairDef>
+		<defName>Moyohair_SemiLong</defName>
+		<label>Moyo_SemiLong</label>
+		<styleGender>Any</styleGender>
+		<texPath>Moyo/Hairs/MYSemiLong</texPath>
+		<styleTags>
+			<li>Moyo_HairCategory</li>
+		</styleTags>
+	</HairDef>		
 </Defs>
