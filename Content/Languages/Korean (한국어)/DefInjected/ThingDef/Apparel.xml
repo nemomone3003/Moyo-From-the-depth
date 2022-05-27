@@ -2,6 +2,8 @@
 <LanguageData>
 	<Moyo_Tribal.label>모요 몸싸개</Moyo_Tribal.label>
 	<Moyo_Tribal.description>붕대로 몸을 감은 뒤 그 위에 조잡한 의복을 덧댄 옷입니다. 몸을 감싸는데에 시간이 많이 걸리며, 세련되었다고 할 순 없지만 이것 하나만으로 목숨을 유지한 모요들이 많습니다.</Moyo_Tribal.description>
+	<Moyo_BodyStrap.label>모요 노예 구속구</Moyo_BodyStrap.label>
+	<Moyo_BodyStrap.description>노예의 움직임을 제한하기 위한 구속구입니다. 착용자에게 자신의 처지를 일깨워주고 물리적으로도 압박을 가해, 노예 반란 확률을 낮춥니다.</Moyo_BodyStrap.description>	
 	<Moyo_Parka.label>모요 파카</Moyo_Parka.label>
 	<Moyo_Parka.description>몸을 따듯하게 유지하기 위해 입는 두꺼운 파카입니다.</Moyo_Parka.description>
 	<Moyo_SnB.label>모요 셔츠와 부츠</Moyo_SnB.label>

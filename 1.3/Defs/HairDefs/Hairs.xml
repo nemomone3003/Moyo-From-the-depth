@@ -6,6 +6,24 @@
 	</StyleItemCategoryDef>
 
 	<HairDef>
+		<defName>Moyohair_DesignTwin</defName>
+		<label>Moyo_DesignTwin</label>
+		<styleGender>Female</styleGender>
+		<texPath>Moyo/Hairs/MYDesignTwin</texPath>
+		<styleTags>
+			<li>Moyo_HairCategory</li>
+		</styleTags>
+	</HairDef>
+	<HairDef>
+		<defName>Moyohair_Fluffy</defName>
+		<label>Moyo_Fluffy</label>
+		<styleGender>Any</styleGender>
+		<texPath>Moyo/Hairs/MYFluffy</texPath>
+		<styleTags>
+			<li>Moyo_HairCategory</li>
+		</styleTags>
+	</HairDef>	
+	<HairDef>
 		<defName>Moyohair_HalfShave</defName>
 		<label>Moyo_halfshaved</label>
 		<styleGender>Any</styleGender>
@@ -53,7 +71,7 @@
 	<HairDef>
 		<defName>Moyohair_LongTwin</defName>
 		<label>Moyo_LongTwin</label>
-		<styleGender>Any</styleGender>
+		<styleGender>Female</styleGender>
 		<texPath>Moyo/Hairs/MYLongTwin</texPath>
 		<styleTags>
 			<li>Moyo_HairCategory</li>

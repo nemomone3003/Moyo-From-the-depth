@@ -246,6 +246,54 @@
 		</colorGenerator>
 	</ThingDef>
 	<!--중세-->
+	<!-- 노예복장 -->
+	<ThingDef ParentName="Moyo_ApparelBase">
+		<defName>Moyo_BodyStrap</defName>
+		<label>Moyo slave restrainer</label>
+		<description>A suit of straps, collar and shackle to restrain slaves. It reminds the wearer of their slave status and psychologically suppresses them, reducing the chance of a slave rebellion.</description>
+		<graphicData>
+			<texPath>Things/Apparel/MoyoSlave1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.8</drawSize>
+		</graphicData>
+		<costStuffCount>70</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+		</equippedStatOffsets>
+		<apparel>
+			<slaveApparel>true</slaveApparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/MoyoSlave</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Slave</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
 	<!--셔츠앤부츠-->
 	<ThingDef ParentName="Moyo_ApparelBase">
 		<defName>Moyo_SnB</defName>
@@ -257,10 +305,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
-		<costList>
-			<Steel>10</Steel>
-		</costList>
-		<costStuffCount>85</costStuffCount>
+		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
@@ -1216,7 +1261,7 @@
 			</li>
 		</comps>
 		<graphicData>
-			<texPath>Things/Apparel/PShelmet1</texPath>
+			<texPath>Things/Apparel/SShelmet1</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1</drawSize>
 		</graphicData>
@@ -1241,7 +1286,7 @@
 		</costList>
 		<apparel>
 			<slaveApparel MayRequire="Ludeon.RimWorld.Ideology">true</slaveApparel>
-			<wornGraphicPath>Things/Apparel/PShelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/SShelmet</wornGraphicPath>
 			<tags>
 				<li>Moyo_Slave</li>
 			</tags>
@@ -1304,5 +1349,5 @@
 		<products>
 			<Moyo_PShelmet>1</Moyo_PShelmet>
 		</products>
-	</RecipeDef>	
+	</RecipeDef>
 </Defs>
