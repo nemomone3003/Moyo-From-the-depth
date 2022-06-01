@@ -261,6 +261,9 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+		<recipeMaker>
+			<useIngredientsForColor>false</useIngredientsForColor>
+		</recipeMaker>
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
@@ -275,7 +278,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
-			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
 		</equippedStatOffsets>
 		<apparel>
 			<slaveApparel>true</slaveApparel>
@@ -1238,7 +1241,7 @@
 	<ThingDef ParentName="Moyo_PowerHelmetBase">
 		<defName>Moyo_SShelmet</defName>
 		<label>moyo Sensory control helmet(Supressing)</label>
-		<description>A helmet with a visual and auditory interface. It can alter sensory inputs depending on its configuration. This helmet is set to supressing mode.\n\nOppression is one of its 'various area of use', Used by some questionable police forces or agents of the elders. </description>
+		<description>A helmet with a visual and auditory interface. It can alter sensory inputs depending on its configuration. This helmet is set to supressing mode.\n\nOppression is one of its 'various area of use', Used by some questionable police forces or agents of the elders.</description>
 		<recipeMaker>
 			<researchPrerequisite>DeepSeaProtection</researchPrerequisite>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>

@@ -644,7 +644,7 @@
 		</graphicData>
 		<tradeability>Sellable</tradeability>
 		<statBases>
-			<MarketValue>980</MarketValue>
+			<!-- <MarketValue>980</MarketValue> -->
 			<WorkToMake>35000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>7</Mass>
