@@ -335,7 +335,7 @@
 	</PawnKindDef>
 	<!-- 모요타격대 -->
 	<PawnKindDef ParentName="MoyoBasePawnKind" Name="MoyoSoldierLight" Abstract="true">
-		<label>moyo strike force</label>
+		<label>moyo trooper</label>
 		<combatPower>190</combatPower>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<isFighter>true</isFighter>
@@ -405,7 +405,7 @@
 	</PawnKindDef>
 	<!-- 모요전열보병 -->
 	<PawnKindDef ParentName="MoyoBasePawnKind" Name="MoyoSoliderStandard" Abstract="true">
-		<label>moyo frontliner</label>
+		<label>moyo heavy trooper</label>
 		<combatPower>280</combatPower>
 		<isFighter>true</isFighter>
 		<baseRecruitDifficulty>0.7</baseRecruitDifficulty>
@@ -515,7 +515,7 @@
 	</PawnKindDef>
 	<!-- 모요돌격보병 -->
 	<PawnKindDef ParentName="MoyoBasePawnKind" Name="MoyoSoldierAssult" Abstract="true">
-		<label>moyo assult troop</label>
+		<label>moyo assault trooper</label>
 		<combatPower>300</combatPower>
 		<isFighter>true</isFighter>
 		<canBeSapper>true</canBeSapper>

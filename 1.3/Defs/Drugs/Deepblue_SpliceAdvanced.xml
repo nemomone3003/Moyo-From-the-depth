@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef Name="Moyo_DrugPillAdvanced" ParentName="Moyo_DrugPillBase" Abstract="True">
 		<tradeTags inherit="false">
 			<li>Moyo_DrugsAdvanced</li>
@@ -8,15 +7,14 @@
 		<recipeMaker>
 			<workAmount>900</workAmount>
 			<productCount>1</productCount>
-			<targetCountAdjustment>1</targetCountAdjustment>		
+			<targetCountAdjustment>1</targetCountAdjustment>
 			<researchPrerequisite>DeepBlue_MedResearch</researchPrerequisite>
-		</recipeMaker>	
+		</recipeMaker>
 		<ingestible>
-			<drugCategory>Medical</drugCategory>				
+			<drugCategory>Medical</drugCategory>
 		</ingestible>
-	</ThingDef>	
-
-	<!-- blueburst chem-->	
+	</ThingDef>
+	<!-- blueburst chem-->
 	<ChemicalDef>
 		<defName>BlueBurstC</defName>
 		<label>blue burst</label>
@@ -24,8 +22,7 @@
 		<toleranceHediff>BlueBurstT</toleranceHediff>
 		<canBinge>false</canBinge>
 	</ChemicalDef>
-
-	<!-- blueburst -->	
+	<!-- blueburst -->
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>BlueBurst</defName>
 		<label>blueburst</label>
@@ -34,7 +31,7 @@
 			<HediffDef>BlueBurstHigh</HediffDef>
 			<HediffDef>DeepBlues</HediffDef>
 			<ThingDef>Moyo_BloodBag</ThingDef>
-		</descriptionHyperlinks>				
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Drugs/BlueBurst</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -48,12 +45,12 @@
 			<AbyssSerum>1</AbyssSerum>
 			<GoJuice>2</GoJuice>
 			<Chemfuel>10</Chemfuel>
-		</costList>		
+		</costList>
 		<tradeability>Sellable</tradeability>
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -69,18 +66,16 @@
 				<addictiveness>0</addictiveness>
 				<needLevelOffset>0</needLevelOffset>
 				<listOrder>1</listOrder>
-			</li>			
+			</li>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
-			</li>		
+			</li>
 		</comps>
 	</ThingDef>
-
 	<!-- blueburst hediff -->
-
 	<HediffDef>
 		<defName>BlueBurstHighPrecursor</defName>
 		<label>BlueBurstHighPrecursor</label>
@@ -96,14 +91,13 @@
 					<li>MoyoHeart</li>
 				</bodyPartDef>
 			</li>
-		</comps>		
+		</comps>
 		<stages>
 			<li>
 				<becomeVisible>false</becomeVisible>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>BlueBurstHigh</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -112,7 +106,7 @@
 		<description>A cardiovascular overdrive in progress. a great amount of blood is being made, putting the heart in great stress. This effect is fatal.</description>
 		<descriptionHyperlinks>
 			<ThingDef>BlueBurst</ThingDef>
-		</descriptionHyperlinks>				
+		</descriptionHyperlinks>
 		<defaultLabelColor>(255,0,0)</defaultLabelColor>
 		<initialSeverity>0.01</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
@@ -157,24 +151,22 @@
 					<li>
 						<capacity>BloodPumping</capacity>
 						<offset>4</offset>
-					</li>					
+					</li>
 				</capMods>
 				<destroyPart>true</destroyPart>
-			</li>			
+			</li>
 		</stages>
 	</HediffDef>
-
 	<!-- BlueBurstT -->
 	<HediffDef ParentName="DrugToleranceBase">
 		<defName>BlueBurstT</defName>
 		<label>BlueBurstT</label>
 		<description>null.</description>
 	</HediffDef>
-
 	<!-- BlueBurstA -->
 	<HediffDef ParentName="AddictionBase">
 		<defName>BlueBurstA</defName>
-		<label>BlueBurstA</label>	
+		<label>BlueBurstA</label>
 		<description>null.</description>
 		<hediffClass>Hediff_Addiction</hediffClass>
 		<everCurableByItem>false</everCurableByItem>
@@ -184,7 +176,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<!-- BlueMed -->
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>BlueMed</defName>
@@ -193,7 +184,7 @@
 		<descriptionHyperlinks>
 			<HediffDef>BlueMedHigh</HediffDef>
 			<HediffDef>DeepBlues</HediffDef>
-		</descriptionHyperlinks>				
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Drugs/BlueMed</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -211,29 +202,29 @@
 		<ingestible>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>DeepBlueTolerance</hediffDef>
 					<severity>0.5</severity>
+					<divideByBodySize>true</divideByBodySize>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>BlueMedHigh</hediffDef>
 					<severity>1.00</severity>
-				</li>				
+				</li>
 			</outcomeDoers>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
 		</comps>
 	</ThingDef>
-
 	<!-- BlueMedHigh -->
 	<HediffDef>
 		<defName>BlueMedHigh</defName>
@@ -249,7 +240,7 @@
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>-1</severityPerDay>
 			</li>
-		</comps>		
+		</comps>
 		<stages>
 			<li>
 				<totalBleedFactor>0.7</totalBleedFactor>
@@ -266,14 +257,12 @@
 					<li>
 						<capacity>BloodFiltration</capacity>
 						<offset>0.5</offset>
-					</li>					
-				</capMods>				
+					</li>
+				</capMods>
 			</li>
 		</stages>
-	</HediffDef>	
-
+	</HediffDef>
 	<!-- penoxy-blue -->
-
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>PenoxyBlue</defName>
 		<label>penoxy-blue</label>
@@ -304,7 +293,7 @@
 					<severity>1.0</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -317,15 +306,13 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
 		</comps>
 	</ThingDef>
-
 	<!-- penoxy-blue hediff-->
-
 	<HediffDef>
 		<defName>PenoxyBlueHigh</defName>
 		<hediffClass>Hediff_High</hediffClass>
@@ -349,17 +336,16 @@
 					<li>Malaria</li>
 					<li>SleepingSickness</li>
 					<li>Plague</li>
+					<li>Flu</li>
 				</hediffToNullify>
-			</li>  
+			</li>
 		</comps>
 		<stages>
 			<li>
 			</li>
 		</stages>
 	</HediffDef>
-
 	<!-- clens-azure -->
-
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>Clensazure</defName>
 		<label>clear-azure</label>
@@ -388,9 +374,9 @@
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>ClensazureHigh</hediffDef>
 					<severity>1.0</severity>
-				</li>			
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -403,7 +389,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
@@ -433,14 +419,13 @@
 					<li>GutWorms</li>
 					<li>MuscleParasites</li>
 				</hediffToNullify>
-			</li>  
+			</li>
 		</comps>
 		<stages>
-			<li>
+			<li>		
 			</li>
 		</stages>
 	</HediffDef>
-
 	<!-- 서스테이너 라피스	-->
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>SustainerLapis</defName>
@@ -474,13 +459,13 @@
 				<li Class="IngestionOutcomeDoer_OffsetNeed">
 					<need>Food</need>
 					<offset>1</offset>
-				</li>					
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>SustainerLapisHigh</hediffDef>
 					<severity>1.0</severity>
-				</li>			
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -493,15 +478,13 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
 		</comps>
 	</ThingDef>
-
 	<!-- 서스테이너 라피스 헤디프 -->
-
 	<HediffDef>
 		<defName>SustainerLapisHigh</defName>
 		<hediffClass>Hediff_High</hediffClass>
@@ -522,12 +505,11 @@
 		</comps>
 		<stages>
 			<li>
-
 				<restFallFactor>0</restFallFactor>
 				<hungerRateFactor>0</hungerRateFactor>
 				<statOffsets>
 					<WorkSpeedGlobal>-0.70</WorkSpeedGlobal>
-				</statOffsets>		
+				</statOffsets>
 				<hediffGivers>
 					<li Class="HediffGiver_Random">
 						<hediff>SustainerLapisHigh_After</hediff>
@@ -536,7 +518,7 @@
 							<li>Body</li>
 						</partsToAffect>
 					</li>
-				</hediffGivers>						
+				</hediffGivers>
 			</li>
 			<li>
 				<minSeverity>0.95</minSeverity>
@@ -544,8 +526,8 @@
 				<hungerRateFactor>0.01</hungerRateFactor>
 				<statOffsets>
 					<WorkSpeedGlobal>-0.70</WorkSpeedGlobal>
-				</statOffsets>		
-			</li>			
+				</statOffsets>
+			</li>
 		</stages>
 	</HediffDef>
 	<HediffDef>
@@ -567,16 +549,14 @@
 			</li>
 			<li Class="MoharHediffs.HediffCompProperties_HediffNullifier">
 				<hediffToNullify>
-					<li>Malaria</li>
-					<li>SleepingSickness</li>
-					<li>Plague</li>
+					<li>SustainerLapisHigh</li>
 				</hediffToNullify>
-			</li> 			
+			</li>
 		</comps>
 		<stages>
 			<li>
 				<restFallFactor>3</restFallFactor>
-				<hungerRateFactor>3</hungerRateFactor>	
+				<hungerRateFactor>3</hungerRateFactor>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -584,10 +564,8 @@
 					</li>
 				</capMods>
 			</li>
-
 		</stages>
-	</HediffDef>	
-
+	</HediffDef>
 	<!--디톡서 코발트-->
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">
 		<defName>DetoxerCobalt</defName>
@@ -613,13 +591,13 @@
 			<Neutroamine>5</Neutroamine>
 		</costList>
 		<ingestible>
-			<outcomeDoers>		
+			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>DetoxerCobaltHigh</hediffDef>
 					<severity>1.0</severity>
-				</li>			
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
@@ -632,15 +610,13 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
 		</comps>
 	</ThingDef>
-
 	<!-- 디톡서 헤디프 -->
-
 	<HediffDef>
 		<defName>DetoxerCobaltHigh</defName>
 		<hediffClass>Hediff_High</hediffClass>
@@ -663,7 +639,7 @@
 					<li>ToxicBuildup</li>
 					<li>FoodPoisoning</li>
 				</hediffToNullify>
-			</li> 			
+			</li>
 		</comps>
 		<stages>
 			<li>
@@ -676,7 +652,7 @@
 						<capacity>Consciousness</capacity>
 						<offset>-0.05</offset>
 					</li>
-				</capMods>				
+				</capMods>
 			</li>
 		</stages>
 	</HediffDef>

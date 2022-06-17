@@ -110,28 +110,28 @@
 					<offset>0.35</offset>
 				</li>			
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
-					<severity>1.00</severity>
-				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlueTolerance</hediffDef>
-					<severity>0.34</severity>
-					<divideByBodySize>true</divideByBodySize>
-				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>BlueGoHigh</hediffDef>
 					<severity>0.8</severity>
 					<divideByBodySize>true</divideByBodySize>
 				</li>
 				<li Class="IngestionOutcomeDoer_OffsetPsyfocus">
 					<offset>0.15</offset>
-				</li>				
+				</li>			
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Deepblue_Filter</hediffDef>
+					<severity>1.00</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DeepBlueTolerance</hediffDef>
+					<severity>0.34</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>	
 			</outcomeDoers>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
 				<listOrder>1012</listOrder>
@@ -218,19 +218,19 @@
 					<need>Rest</need>
 					<offset>0.8</offset>
 					<toleranceChemical>DeepBlue</toleranceChemical>
-				</li>			
+				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
+					<hediffDef>BlueUpHigh</hediffDef>
+					<severity>0.8</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>		
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Deepblue_Filter</hediffDef>
 					<severity>1.00</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>DeepBlueTolerance</hediffDef>
 					<severity>0.34</severity>
-					<divideByBodySize>true</divideByBodySize>
-				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>BlueUpHigh</hediffDef>
-					<severity>0.8</severity>
 					<divideByBodySize>true</divideByBodySize>
 				</li>				
 			</outcomeDoers>
@@ -238,7 +238,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>		
@@ -332,20 +332,19 @@
 					<need>Rest</need>
 					<offset>0.35</offset>
 					<toleranceChemical>DeepBlue</toleranceChemical>
-				</li>			
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlues</hediffDef>
-					<severity>1.00</severity>
-					<doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
-				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>DeepBlueTolerance</hediffDef>
-					<severity>0.34</severity>
-					<divideByBodySize>true</divideByBodySize>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>BlueYoHigh</hediffDef>
 					<severity>0.8</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>	
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Deepblue_Filter</hediffDef>
+					<severity>1.00</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>DeepBlueTolerance</hediffDef>
+					<severity>0.34</severity>
 					<divideByBodySize>true</divideByBodySize>
 				</li>				
 			</outcomeDoers>
@@ -353,7 +352,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>1.00</addictiveness>
+				<addictiveness>0</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
 				<listOrder>1012</listOrder>
