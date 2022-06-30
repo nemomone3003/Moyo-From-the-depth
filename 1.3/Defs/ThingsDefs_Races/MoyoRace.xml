@@ -70,63 +70,6 @@
 					<customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
 					<customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
 					<bodyAddons>
-						<!-- 얼굴 -->
-						<!-- <li Class="MoharCustomHAR.MoharBodyAddon"> -->
-						<!-- <path>Moyo/Heads/MoyoHead</path> -->
-						<!-- <bodyPart>Head</bodyPart> -->
-						<!-- <inFrontOfBody>true</inFrontOfBody> -->
-						<!-- <colorChannel>skin</colorChannel> -->
-						<!-- <defaultOffset>Tail</defaultOffset> -->
-						<!-- <offsets> -->
-						<!-- <north> -->
-						<!-- <bodyTypes> -->
-						<!-- <Female>(0, 0)</Female> -->
-						<!-- <Thin>(0, 0)</Thin> -->
-						<!-- </bodyTypes> -->
-						<!-- </north> -->
-						<!-- <south> -->
-						<!-- <layerOffset>-0.273</layerOffset> -->
-						<!-- <bodyTypes> -->
-						<!-- <Female>(-0.424, 0.5)</Female> -->
-						<!-- <Thin>(-0.424, 0.5)</Thin> -->
-						<!-- </bodyTypes> -->
-						<!-- </south> -->
-						<!-- <east> -->
-						<!-- <layerOffset>-0.273</layerOffset> -->
-						<!-- <bodyTypes> -->
-						<!-- <Female>(-0.449, 0.5)</Female> -->
-						<!-- <Thin>(-0.449, 0.5)</Thin> -->
-						<!-- </bodyTypes> -->
-						<!-- </east> -->
-						<!-- </offsets> -->
-						<!-- <jobParams> -->
-						<!-- <hideIfJob> -->
-						<!-- <li> -->
-						<!-- <job>LayDown</job> -->
-						<!-- <postureOrMoving> -->
-						<!-- <postures> -->
-						<!-- <li>LayingInBed</li> -->
-						<!-- <li>LayingOnGroundFaceUp</li> -->
-						<!-- <li>LayingOnGroundNormal</li> -->
-						<!-- </postures> -->
-						<!-- <moving>false</moving> -->
-						<!-- </postureOrMoving> -->
-						<!-- </li> -->
-						<!-- <li> -->
-						<!-- <job>Wait_Downed</job> -->
-						<!-- <postureOrMoving> -->
-						<!-- <postures> -->
-						<!-- <li>LayingInBed</li> -->
-						<!-- <li>LayingOnGroundFaceUp</li> -->
-						<!-- <li>LayingOnGroundNormal</li> -->
-						<!-- </postures> -->
-						<!-- <moving>false</moving> -->
-						<!-- </postureOrMoving> -->
-						<!-- </li> -->
-						<!-- </hideIfJob> -->
-						<!-- </jobParams> -->
-						<!-- <drawIfDead>false</drawIfDead> -->
-						<!-- </li> -->
 						<!-- 꼬리 -->
 						<li>
 							<path>Moyo/Tail/MoyoTail</path>
@@ -166,7 +109,6 @@
 							<bodyPart>left antennae</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<defaultOffset>Tail</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
@@ -177,14 +119,14 @@
 								</north>
 								<south>
 									<bodyTypes>
-										<Female>(-0.424, 0.22)</Female>
-										<Thin>(-0.424, 0.22)</Thin>
+										<Female>(0.0, 0.0)</Female>
+										<Thin>(0.0, 0.0)</Thin>
 									</bodyTypes>
 								</south>
 								<east>
 									<bodyTypes>
-										<Female>(-0.45, 0.22)</Female>
-										<Thin>(-0.45, 0.22)</Thin>
+										<Female>(0.0, 0.0)</Female>
+										<Thin>(0.0, 0.0)</Thin>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -200,7 +142,6 @@
 							<bodyPart>right antennae</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
-							<defaultOffset>Tail</defaultOffset>
 							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<north>
@@ -211,14 +152,14 @@
 								</north>
 								<south>
 									<bodyTypes>
-										<Female>(-0.424, 0.22)</Female>
-										<Thin>(-0.424, 0.22)</Thin>
+										<Female>(0.0, 0.0)</Female>
+										<Thin>(0.0, 0.0)</Thin>
 									</bodyTypes>
 								</south>
 								<east>
 									<bodyTypes>
-										<Female>(-0.45, 0.22)</Female>
-										<Thin>(-0.45, 0.22)</Thin>
+										<Female>(0.0, 0.0)</Female>
+										<Thin>(0.0, 0.0)</Thin>
 									</bodyTypes>
 								</east>
 							</offsets>
@@ -520,6 +461,13 @@
 						<offset>-1.0</offset>
 					</li>
 				</productAffectedStats>
+				<speedAffectedStats>
+					<li>
+						<statDef>DeepblueStatSpeed</statDef>
+						<multiplier>1.0</multiplier>
+						<offset>-1.0</offset>
+					</li>
+				</speedAffectedStats>				
 			</li>
 		</comps>
 		<!--=============================================================================================================================-->

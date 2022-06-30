@@ -103,6 +103,7 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<MarketValue>800</MarketValue>
+			<RoyalFavorValue>1.25</RoyalFavorValue>
 			<Mass>0.5</Mass>
 			<Flammability>0.0</Flammability>
 		</statBases>

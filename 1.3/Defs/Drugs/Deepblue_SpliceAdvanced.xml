@@ -63,13 +63,13 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>BlueBurstC</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0</needLevelOffset>
 				<listOrder>1</listOrder>
 			</li>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
@@ -219,7 +219,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
@@ -306,7 +306,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
@@ -389,7 +389,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
@@ -478,7 +478,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>
@@ -610,7 +610,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>

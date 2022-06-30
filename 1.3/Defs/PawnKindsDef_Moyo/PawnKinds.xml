@@ -339,6 +339,7 @@
 		<combatPower>190</combatPower>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 		<isFighter>true</isFighter>
+		<minGenerationAge>25</minGenerationAge>
 		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
 		<apparelTags>
 			<li>Moyo_SpacerLight</li>
@@ -408,6 +409,7 @@
 		<label>moyo heavy trooper</label>
 		<combatPower>280</combatPower>
 		<isFighter>true</isFighter>
+		<minGenerationAge>25</minGenerationAge>
 		<baseRecruitDifficulty>0.7</baseRecruitDifficulty>
 		<apparelTags>
 			<li>Moyo_SpacerHeavy</li>
@@ -463,6 +465,7 @@
 		<label>moyo heavy gunner</label>
 		<combatPower>280</combatPower>
 		<isFighter>true</isFighter>
+		<minGenerationAge>25</minGenerationAge>
 		<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
 		<apparelTags>
 			<li>Moyo_SpacerHeavy</li>
@@ -518,6 +521,7 @@
 		<label>moyo assault trooper</label>
 		<combatPower>300</combatPower>
 		<isFighter>true</isFighter>
+		<minGenerationAge>25</minGenerationAge>
 		<canBeSapper>true</canBeSapper>
 		<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
 		<apparelTags>
@@ -574,6 +578,7 @@
 		<label>moyo refugee Elder</label>
 		<combatPower>100</combatPower>
 		<isFighter>true</isFighter>
+		<minGenerationAge>30</minGenerationAge>
 		<factionLeader>true</factionLeader>
 		<itemQuality>Excellent</itemQuality>
 		<baseRecruitDifficulty>0.99</baseRecruitDifficulty>
@@ -623,6 +628,7 @@
 		<combatPower>450</combatPower>
 		<itemQuality>Excellent</itemQuality>
 		<isFighter>true</isFighter>
+		<minGenerationAge>25</minGenerationAge>
 		<baseRecruitDifficulty>0.99</baseRecruitDifficulty>
 		<apparelTags>
 			<li>Moyo_Guardian</li>
@@ -684,6 +690,7 @@
 		<combatPower>450</combatPower>
 		<itemQuality>Excellent</itemQuality>
 		<isFighter>true</isFighter>
+		<minGenerationAge>25</minGenerationAge>
 		<baseRecruitDifficulty>0.99</baseRecruitDifficulty>
 		<apparelTags>
 			<li>Moyo_Guardian</li>

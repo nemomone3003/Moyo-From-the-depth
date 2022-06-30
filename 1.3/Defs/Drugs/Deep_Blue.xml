@@ -109,7 +109,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>1.00</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>

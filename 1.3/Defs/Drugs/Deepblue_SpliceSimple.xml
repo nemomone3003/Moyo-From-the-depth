@@ -84,7 +84,7 @@
 	<ThingDef ParentName="Moyo_DrugPillBase">
 		<defName>BlueGo</defName>
 		<label>morphi-blue</label>
-		<description>A cocktail of deepblue and a drug. Causes deepblue dependancy when used and provides effect of Go-juice. Is's faster to use and the effect last a bit longer.\n\nDeepblue cocktail does not have dangers of addiction or overdose of used drug.</description>
+		<description>A cocktail of deepblue and a drug. Causes deepblue dependancy when used and provides effect of Go-juice. It's faster to use and the effect last a bit longer.\n\nDeepblue cocktail does not have dangers of addiction or overdose of used drug.</description>
 		<descriptionHyperlinks>
 			<HediffDef>BlueGoHigh</HediffDef>		
 			<HediffDef>DeepBlues</HediffDef>
@@ -131,7 +131,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
 				<listOrder>1012</listOrder>
@@ -191,7 +191,7 @@
 	<ThingDef ParentName="Moyo_DrugPillBase">
 		<defName>BlueUp</defName>
 		<label>sapphire meth</label>
-		<description>A cocktail of deepblue and a drug. Causes deepblue dependancy when used and provides effect of Wakeup. Is's faster to use and the effect last a bit longer.\n\nDeepblue cocktail does not have dangers of addiction or overdose of used drug.</description>
+		<description>A cocktail of deepblue and a drug. Causes deepblue dependancy when used and provides effect of Wakeup. It's faster to use and the effect last a bit longer.\n\nDeepblue cocktail does not have dangers of addiction or overdose of used drug.</description>
 		<descriptionHyperlinks>
 			<HediffDef>BlueUpHigh</HediffDef>		
 			<HediffDef>DeepBlues</HediffDef>
@@ -238,7 +238,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<listOrder>1012</listOrder>
 			</li>		
@@ -305,7 +305,7 @@
 	<ThingDef ParentName="Moyo_DrugPillBase">
 		<defName>BlueYo</defName>
 		<label>blue haze</label>
-		<description>A cocktail of deepblue and a drug. Causes deepblue dependancy when used and provides effect of psychite. Is's faster to use and the effect last a bit longer.\n\nDeepblue cocktail does not have dangers of addiction or overdose of used drug.</description>
+		<description>A cocktail of deepblue and a drug. Causes deepblue dependancy when used and provides effect of psychite. It's faster to use and the effect last a bit longer.\n\nDeepblue cocktail does not have dangers of addiction or overdose of used drug.</description>
 		<descriptionHyperlinks>
 			<HediffDef>BlueYoHigh</HediffDef>		
 			<HediffDef>DeepBlues</HediffDef>
@@ -352,7 +352,7 @@
 		<comps>
 			<li Class="CompProperties_Drug">
 				<chemical>DeepBlue</chemical>
-				<addictiveness>0</addictiveness>
+				<addictiveness>0.0001</addictiveness>
 				<needLevelOffset>0.3</needLevelOffset>
 				<isCombatEnhancingDrug>true</isCombatEnhancingDrug>
 				<listOrder>1012</listOrder>
