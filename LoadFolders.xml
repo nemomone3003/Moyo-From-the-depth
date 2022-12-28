@@ -20,4 +20,13 @@
 		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>		
 		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>		
 	</v1.3>
+		<v1.4>
+		<li>1.4</li>
+		<li>Content</li>
+		<li IfModActive="GloomyLynx.DragonianRace">Dragonian-addon</li>
+		<li IfModActive="GloomyLynx.DragonianGaramRace">Dragonian-addon</li>
+		<li IfModActive="Rebeka.DR">Dragonian-addon</li>
+		<li IfModActive="Tormound.DragonianRacePrime">Dragonian-addon</li>		
+		<li IfModActive="Vazrua.DragonianRacePrime2.0">Dragonian-addon</li>		
+	</v1.4>
 </loadFolders>
