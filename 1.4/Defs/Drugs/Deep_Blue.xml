@@ -197,6 +197,7 @@
 		<addictionHediff>DeepBlueAddiction</addictionHediff>
 		<toleranceHediff>DeepBlueTolerance</toleranceHediff>
 		<canBinge>false</canBinge>
+		<generateAddictionGenes>false</generateAddictionGenes>
 	</ChemicalDef>
 	<NeedDef ParentName="DrugAddictionNeedBase">
 		<defName>Chemical_Deepblue</defName>

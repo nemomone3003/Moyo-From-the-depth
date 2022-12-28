@@ -21,6 +21,7 @@
 		<addictionHediff>BlueBurstA</addictionHediff>
 		<toleranceHediff>BlueBurstT</toleranceHediff>
 		<canBinge>false</canBinge>
+		<generateAddictionGenes>false</generateAddictionGenes>
 	</ChemicalDef>
 	<!-- blueburst -->
 	<ThingDef ParentName="Moyo_DrugPillAdvanced">

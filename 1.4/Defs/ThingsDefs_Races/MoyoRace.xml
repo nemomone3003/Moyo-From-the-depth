@@ -335,12 +335,12 @@
 					<li>Moyo_Holosuit</li>
 				</apparelList>
 				<blackEndoCategories MayRequire="Ludeon.RimWorld.Biotech">
-					<!--<li MayRequire="Ludeon.RimWorld.Biotech">Melanin</li>-->
-					<!--<li MayRequire="Ludeon.RimWorld.Biotech">EyeColor</li>-->
+					<li MayRequire="Ludeon.RimWorld.Biotech">Melanin</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">HairColor</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">BodyType</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Headbone</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Head</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Ears</li>
 					<li MayRequire="Ludeon.RimWorld.Biotech">Jaw</li>
 				</blackEndoCategories>
 				<blackGeneList MayRequire="Ludeon.RimWorld.Biotech">
