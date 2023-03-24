@@ -117,11 +117,11 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<alignWithHead>true</alignWithHead>
-							<ageGraphics>
-								<HumanlikeBaby>
-									<path>Moyo/Heads/Baby/MoyoAtenna_Left</path>
-								</HumanlikeBaby>
-							</ageGraphics>
+							<!-- <ageGraphics> -->
+								<!-- <HumanlikeBaby> -->
+									<!-- <path>Moyo/Heads/Baby/MoyoAtenna_Left</path> -->
+								<!-- </HumanlikeBaby> -->
+							<!-- </ageGraphics> -->
 							<offsets>
 								<north>
 									<bodyTypes>
@@ -154,6 +154,7 @@
 							<hiddenUnderApparelTag>
 								<li>MoyoTuque</li>
 							</hiddenUnderApparelTag>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						</li>
 						<li>
 							<path>Moyo/Heads/MoyoAtenna_Right</path>
@@ -161,11 +162,11 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<colorChannel>skin</colorChannel>
 							<alignWithHead>true</alignWithHead>
-							<ageGraphics>
-								<HumanlikeBaby>
-									<path>Moyo/Heads/Baby/MoyoAtenna_Right</path>
-								</HumanlikeBaby>
-							</ageGraphics>
+							<!-- <ageGraphics> -->
+								<!-- <HumanlikeBaby> -->
+									<!-- <path>Moyo/Heads/Baby/MoyoAtenna_Right</path> -->
+								<!-- </HumanlikeBaby> -->
+							<!-- </ageGraphics> -->
 							<offsets>
 								<north>
 									<bodyTypes>
@@ -198,8 +199,9 @@
 							<hiddenUnderApparelTag>
 								<li>MoyoTuque</li>
 							</hiddenUnderApparelTag>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
 						</li>
-						<!--아기 머리카락-->
+						<!-- 아기 머리카락 -->
 						<li>
 							<path>Moyo/Dummy/Dummy</path>
 							<bodyPart>Head</bodyPart>
@@ -354,11 +356,11 @@
 		<!--=============================================================================================================================-->
 		<statBases>
 			<!--기본-->
-			<MarketValue>3200</MarketValue>
+			<MarketValue>2500</MarketValue>
 			<Flammability>0.5</Flammability>
 			<MoveSpeed>4</MoveSpeed>
-			<ComfyTemperatureMax>18</ComfyTemperatureMax>
-			<ComfyTemperatureMin>2</ComfyTemperatureMin>
+			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<ComfyTemperatureMin>8</ComfyTemperatureMin>
 			<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
 			<CarryingCapacity>75</CarryingCapacity>
 			<MeatAmount>80</MeatAmount>
@@ -563,6 +565,7 @@
 			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
 		</recipes>
 	</AlienRace.ThingDef_AlienRace>
+	
 	<LifeStageDef ParentName="HumanlikeAdolescent">
 		<defName>MoyoTeenager</defName>
 		<label>teenager</label>

@@ -12,7 +12,7 @@
 		<stackLimit>10</stackLimit>
 		<statBases>
 			<MarketValue>2500</MarketValue>
-			<WorkToMake>100000</WorkToMake>			
+			<WorkToMake>100000</WorkToMake>
 		</statBases>
 		<thingCategories>
 			<li>Items</li>
@@ -21,15 +21,16 @@
 		<comps>
 			<li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
-				<useLabel>Use abysstech healer mech serum</useLabel>
+				<useLabel>Use {0_label}</useLabel>
 				<useDuration>600</useDuration>
 			</li>
 			<li Class="CompProperties_UseEffect">
 				<compClass>CompUseEffect_FixWorstHealthCondition</compClass>
 			</li>
-			<li Class="CompProperties_UseEffect">
-				<compClass>CompUseEffect_DestroySelf</compClass>
+			<li Class="CompProperties_UseEffectPlaySound">
+				<soundOnUsed>MechSerumUsed</soundOnUsed>
 			</li>
+			<li Class="CompProperties_UseEffectDestroySelf"/>
 		</comps>
 		<costList>
 			<Luciferium>10</Luciferium>
@@ -48,15 +49,13 @@
 				<Crafting>4</Crafting>
 				<Intellectual>13</Intellectual>
 			</skillRequirements>
-		</recipeMaker>		
+		</recipeMaker>
 	</ThingDef>
-
 	<ThingCategoryDef>
 		<defName>abysstech_neurotrainer</defName>
 		<label>Abysstech neurotrainer</label>
 		<parent>Items</parent>
-	</ThingCategoryDef>	
-
+	</ThingCategoryDef>
 	<ThingDef ParentName="MechSerumBase" Name="MoyoTrainerbase" Abstract="True">
 		<defName>Moyo_neuroSerum_base</defName>
 		<description>A pinnacle of abysstech, a solution of mechanites tuned with deepblue to accelerate experience gaining. Though its effect is minor compared to the contemporary one, but its free of deepblue-related effect despite a huge amount was used in production.\n\nSeemed to be the current limit of medicinal deepblue, this is a masterwork of biological and mechanical engineering combined that has been achived by the lighthouse.</description>
@@ -67,20 +66,23 @@
 		<stackLimit>1</stackLimit>
 		<statBases>
 			<MarketValue>2500</MarketValue>
-			<WorkToMake>70000</WorkToMake>			
+			<WorkToMake>70000</WorkToMake>
 		</statBases>
 		<thingCategories>
 			<li>abysstech_neurotrainer</li>
 		</thingCategories>
 		<tradeability>Sellable</tradeability>
 		<comps Inherit="False">
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Use {0_label}</useLabel>
+				<useDuration>600</useDuration>
+			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_UseEffectPlaySound">
 				<soundOnUsed>MechSerumUsed</soundOnUsed>
 			</li>
-			<li Class="CompProperties_UseEffect">
-				<compClass>CompUseEffect_DestroySelf</compClass>
-			</li>			
+			<li Class="CompProperties_UseEffectDestroySelf"/>
 		</comps>
 		<costList>
 			<Luciferium>5</Luciferium>
@@ -99,9 +101,8 @@
 				<Crafting>4</Crafting>
 				<Intellectual>13</Intellectual>
 			</skillRequirements>
-		</recipeMaker>		
+		</recipeMaker>
 	</ThingDef>
-
 	<ThingDef ParentName="MoyoTrainerbase">
 		<defName>Moyo_neuroSerum_combat</defName>
 		<label>abysstech neurotrainer serum(Combat)</label>
@@ -110,7 +111,7 @@
 				<useJob>UseItem</useJob>
 				<useLabel>Use abysstech neurotrainer serum to learn skill</useLabel>
 				<useDuration>600</useDuration>
-			</li>		
+			</li>
 			<li Class="ImprovedNeurotrainers.CompPropertiesUseEffect_LearnSkillImproved">
 				<skillDefName>Shooting</skillDefName>
 				<xpAmount>12500</xpAmount>
@@ -123,9 +124,8 @@
 				<skillDefName>Animals</skillDefName>
 				<xpAmount>12500</xpAmount>
 			</li>
-		</comps>		
+		</comps>
 	</ThingDef>
-
 	<ThingDef ParentName="MoyoTrainerbase">
 		<defName>Moyo_neuroSerum_labor</defName>
 		<label>abysstech neurotrainer serum(Labor)</label>
@@ -146,9 +146,8 @@
 			<li Class="ImprovedNeurotrainers.CompPropertiesUseEffect_LearnSkillImproved">
 				<skillDefName>Plants</skillDefName>
 				<xpAmount>12500</xpAmount>
-			</li>				
-
-		</comps>		
+			</li>
+		</comps>
 	</ThingDef>
 	<ThingDef ParentName="MoyoTrainerbase">
 		<defName>Moyo_neuroSerum_housekeeping</defName>
@@ -170,9 +169,8 @@
 			<li Class="ImprovedNeurotrainers.CompPropertiesUseEffect_LearnSkillImproved">
 				<skillDefName>Cooking</skillDefName>
 				<xpAmount>12500</xpAmount>
-			</li>				
-
-		</comps>		
+			</li>
+		</comps>
 	</ThingDef>
 	<ThingDef ParentName="MoyoTrainerbase">
 		<defName>Moyo_neuroSerum_craftsmanship</defName>
@@ -194,11 +192,9 @@
 			<li Class="ImprovedNeurotrainers.CompPropertiesUseEffect_LearnSkillImproved">
 				<skillDefName>Intellectual</skillDefName>
 				<xpAmount>12500</xpAmount>
-			</li>				
-
-		</comps>		
-	</ThingDef>			
-
+			</li>
+		</comps>
+	</ThingDef>
 	<RecipeDef>
 		<defName>AdministerMoyo_HealerSerum</defName>
 		<label>administer abysstech healer mech serum</label>
@@ -226,7 +222,6 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 	</RecipeDef>
-
 	<!-- 벨리알 V -->
 	<ThingDef Name="Belial-V_Base" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
@@ -249,7 +244,7 @@
 		<alwaysHaulable>true</alwaysHaulable>
 		<tradeability>Sellable</tradeability>
 		<comps>
-			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Forbiddable"/>
 		</comps>
 		<pathCost>14</pathCost>
 		<burnableByRecipe>true</burnableByRecipe>
@@ -268,10 +263,9 @@
 					<offset>(0.18,0,0)</offset>
 				</northDefault>
 			</ingestHoldOffsetStanding>
-			<useEatingSpeedStat>false</useEatingSpeedStat>		
+			<useEatingSpeedStat>false</useEatingSpeedStat>
 		</ingestible>
 	</ThingDef>
-
 	<ThingDef ParentName="Belial-V_Base">
 		<defName>Moyo_BelialV</defName>
 		<label>Belial-V</label>
@@ -289,7 +283,7 @@
 		</statBases>
 		<tradeTags>
 			<li>ExoticMisc</li>
-		</tradeTags>		
+		</tradeTags>
 		<techLevel>Industrial</techLevel>
 		<ingestible>
 			<outcomeDoers>
@@ -299,7 +293,7 @@
 				</li>
 			</outcomeDoers>
 			<ingestCommandString>Inject {0}</ingestCommandString>
-			<ingestReportString>Injecting {0}.</ingestReportString>			
+			<ingestReportString>Injecting {0}.</ingestReportString>
 		</ingestible>
 		<costList>
 			<Luciferium>1</Luciferium>
@@ -307,7 +301,7 @@
 			<Moyo_Abyssteel>5</Moyo_Abyssteel>
 		</costList>
 		<recipeMaker>
-			<workAmount>5000</workAmount>		
+			<workAmount>5000</workAmount>
 			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
 			<workSkill>Intellectual</workSkill>
 			<recipeUsers>
@@ -318,9 +312,8 @@
 				<Crafting>4</Crafting>
 				<Intellectual>13</Intellectual>
 			</skillRequirements>
-		</recipeMaker>			
-	</ThingDef>	
-
+		</recipeMaker>
+	</ThingDef>
 	<HediffDef>
 		<defName>BelialVInjectedAfter</defName>
 		<label>BelialVInjectedAfter</label>
@@ -341,7 +334,7 @@
 					<li>BelialVEffect_5</li>
 					<li>BelialVEffect_6</li>
 					<li>BelialVEffect_7</li>
-					<li>BelialVEffect_7U</li>	
+					<li>BelialVEffect_7U</li>
 				</hediffPool>
 				<weights>
 					<!-- <li>20</li> -->
@@ -355,10 +348,10 @@
 					<li>20</li>
 					<li>20</li>
 					<li>8</li>
-					<li>2</li>					
+					<li>2</li>
 				</weights>
 			</li>
-		</comps>		
+		</comps>
 		<stages>
 			<li>			
 			</li>

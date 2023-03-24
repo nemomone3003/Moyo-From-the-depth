@@ -4,6 +4,19 @@
 		<defName>Moyo_HairCategory</defName>
 		<label>Moyo hair</label>
 	</StyleItemCategoryDef>
+	<StyleItemCategoryDef>
+		<defName>Moyo_HairDummyCategory</defName>
+		<label>Moyo hair</label>
+	</StyleItemCategoryDef>
+
+	<HairDef>
+		<defName>Moyohair_Dummy</defName>
+		<label>Moyo_DummyHair</label>
+		<texPath>Moyo/Hairs/MYDummy</texPath>
+		<styleTags>
+			<li>Moyo_HairDummyCategory</li>
+		</styleTags>
+	</HairDef>	
 
 	<HairDef>
 		<defName>Moyohair_DesignTwin</defName>
